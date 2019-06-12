@@ -3,8 +3,23 @@ body {
     font-weight: 300;
 }
 
+header {
+    padding-top: 15px;
+}
+
 header .row,
 footer .row {
     display: flex;
     align-items: right;
+}
+
+.jumbotron {
+    background-image: url(./assets/eurorack1.jpeg);
+    background-size: cover;
+    height: 500px;
+    border-radius: 0%
+}
+
+.jumbotron h1 {
+    color: whitesmoke;
 }
