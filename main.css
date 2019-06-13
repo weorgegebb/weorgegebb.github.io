@@ -5,6 +5,12 @@ body {
 
 header {
     padding-top: 15px;
+    background-color: whitesmoke;
+}
+
+footer {
+    padding-top: 15px;
+    background-color: whitesmoke;
 }
 
 header .row,
@@ -14,12 +20,18 @@ footer .row {
 }
 
 .jumbotron {
-    background-image: url(./assets/eurorack1.jpeg);
-    background-size: cover;
-    height: 500px;
-    border-radius: 0%
+    border-radius: 0%;
 }
 
 .jumbotron h1 {
     color: whitesmoke;
+}
+
+#main-landing {
+    background-image: url(./assets/eurorack1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
