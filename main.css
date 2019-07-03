@@ -17,6 +17,12 @@ footer .row {
     color: whitesmoke;
 }
 
+.cover-container {
+    background-image: url(./assets/eurorack1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 #main-landing {
     background-image: url(./assets/eurorack1.jpeg);
     background-size: cover;
