@@ -1,11 +1,3 @@
-:root {
-    --gray: #d3d0cb;
-    --dark-blue: #143642;
-    --cyan: #0f8b8d;
-    --lime: #bfd7b5;
-    --lemon: #e7efc5;
-}   
-
 a:link {
     text-decoration: none;
     color: inherit;
