@@ -21,23 +21,23 @@ body {
 }
 
 .bg-bg {
-    background-color: var(--gray);
+    background-color: #d3d0cb;
 }
 
 .bg-main {
-    background-color: var(--cyan);
+    background-color: #0f8b8d;
 }
 
 .bg-alternate {
-    background-color: var(--dark-blue);
+    background-color: #143642;
 }
 
 .bg-highlight1 {
-    background-color: var(--lime);
+    background-color: #bfd7b5;
 }
 
 .bg-highlight2 {
-    background-color: var(--lemon);
+    background-color: #e7efc5;
 }
 
 header .row,
