@@ -1,6 +1,43 @@
+:root {
+    --gray: #d3d0cb;
+    --dark-blue: #143642;
+    --cyan: #0f8b8d;
+    --lime: #bfd7b5;
+    --lemon: #e7efc5;
+}   
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.text-black {
+    color: black;
+}
+
+.bg-bg {
+    background-color: var(--gray);
+}
+
+.bg-main {
+    background-color: var(--cyan);
+}
+
+.bg-alternate {
+    background-color: var(--dark-blue);
+}
+
+.bg-highlight1 {
+    background-color: var(--lime);
+}
+
+.bg-highlight2 {
+    background-color: var(--lemon);
 }
 
 header .row,
@@ -21,6 +58,11 @@ footer .row {
     background-image: url(./assets/eurorack1.jpeg);
     background-size: cover;
     background-position: center;
+}
+
+#ggebc-photo {
+    background-image: url(./assets/unnamed.jpg);
+
 }
 
 #main-landing {
